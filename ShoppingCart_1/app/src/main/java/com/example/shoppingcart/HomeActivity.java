@@ -59,7 +59,7 @@ public class HomeActivity extends AppCompatActivity {
         });
         cart.setOnClickListener(new View.OnClickListener() {
             @Override            public void onClick(View view) {
-                Intent intent = new Intent(HomeActivity.this,CartActivity.class);
+                Intent intent = new Intent(HomeActivity.this, itemlist.class);
                 startActivity(intent);
             }
         });
